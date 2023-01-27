@@ -10,14 +10,21 @@
     <Description>Zeytinbey.DataTypes is a package which includes helper classes and static classes that facilitate DataType operations such as type conversion, etc.</Description>
     <Copyright>All rights reserved.</Copyright>
     <PackageReadmeFile>Readme.md</PackageReadmeFile>
-    <PackageTags>data types conversion convert default value extension</PackageTags>
-    <PackageReleaseNotes>Initial publish.</PackageReleaseNotes>
+    <PackageTags>data types conversion convert default value extension string</PackageTags>
+    <PackageReleaseNotes>Added To(Type) extension methods to string. Moved string extensions from Zeytinbey.DataTypes.Extensions to ZeytinBey.DataTypes namespace.</PackageReleaseNotes>
     <NeutralLanguage>en-US</NeutralLanguage>
-	<Version>1.0.0</Version>
+	<Version>1.0.2</Version>
     <AssemblyVersion>$(Version).0</AssemblyVersion>
     <FileVersion>$(AssemblyVersion)</FileVersion>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/sinanilyas/zeytinbey.datatypes</PackageProjectUrl>
+    <RepositoryUrl>$(PackageProjectUrl)</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="StringExtensions.cs" />
+  </ItemGroup>
 
   <ItemGroup>
     <None Update="Readme.md">

@@ -17,7 +17,7 @@
     <AssemblyVersion>$(Version).0</AssemblyVersion>
     <FileVersion>$(AssemblyVersion)</FileVersion>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <PackageProjectUrl>https://github.com/sinanilyas/zeytinbey.datatypes</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/sinanilyas/Zeytinbey.DataTypes</PackageProjectUrl>
     <RepositoryUrl>$(PackageProjectUrl)</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
   </PropertyGroup>

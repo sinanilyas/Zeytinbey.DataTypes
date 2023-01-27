@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>$(AssemblyName)</Title>
+    <Authors>Sinan ILYAS</Authors>
+    <Description>Zeytinbey.DataTypes is a package which includes helper classes and static classes that facilitate DataType operations such as type conversion, etc.</Description>
+    <Copyright>All rights reserved.</Copyright>
+    <PackageReadmeFile>Readme.md</PackageReadmeFile>
+    <PackageTags>data types conversion convert default value extension</PackageTags>
+    <PackageReleaseNotes>Initial publish.</PackageReleaseNotes>
+    <NeutralLanguage>en-US</NeutralLanguage>
+	<Version>1.0.0</Version>
+    <AssemblyVersion>$(Version).0</AssemblyVersion>
+    <FileVersion>$(AssemblyVersion)</FileVersion>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Update="Readme.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>

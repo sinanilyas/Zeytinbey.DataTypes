@@ -11,9 +11,9 @@
     <Copyright>All rights reserved.</Copyright>
     <PackageReadmeFile>Readme.md</PackageReadmeFile>
     <PackageTags>data types conversion convert default value extension method string enum display name</PackageTags>
-    <PackageReleaseNotes>Added DisplayName extension method for Enum type.</PackageReleaseNotes>
+    <PackageReleaseNotes>Enum extension method DisplayName is renamed as GetDisplayNameOrNull. Added GetDisplayName extension method which returns empty string if display name is not specified.</PackageReleaseNotes>
     <NeutralLanguage>en-US</NeutralLanguage>
-	<Version>1.0.3</Version>
+	<Version>1.0.4</Version>
     <AssemblyVersion>$(Version).0</AssemblyVersion>
     <FileVersion>$(AssemblyVersion)</FileVersion>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>

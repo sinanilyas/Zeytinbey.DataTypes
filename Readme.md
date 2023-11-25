@@ -2,7 +2,7 @@
 
 ## About
 
-Zeytinbey.DataTypes is a package which includes helper classes and static classes that facilitate DataType operations such as type conversion, etc.
+Zeytinbey.DataTypes is a comprehensive package designed to streamline DataType operations in your .NET projects. Packed with a collection of essential helper classes, static utilities, and extension methods, it simplifies tasks like type conversion and more, enhancing the efficiency and readability of your codebase.
 
 ## Dependencies
 

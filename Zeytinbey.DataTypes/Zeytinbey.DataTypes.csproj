@@ -7,13 +7,13 @@
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Title>$(AssemblyName)</Title>
     <Authors>Sinan ILYAS</Authors>
-    <Description>Zeytinbey.DataTypes is a package which includes helper classes and static classes that facilitate DataType operations such as type conversion, etc.</Description>
+    <Description>Zeytinbey.DataTypes is a comprehensive package designed to streamline DataType operations in your .NET projects. Packed with a collection of essential helper classes, static utilities, and extension methods, it simplifies tasks like type conversion and more, enhancing the efficiency and readability of your codebase.</Description>
     <Copyright>All rights reserved.</Copyright>
     <PackageReadmeFile>Readme.md</PackageReadmeFile>
-    <PackageTags>data types conversion convert default value extension string</PackageTags>
-    <PackageReleaseNotes>Added To(Type) extension methods to string. Moved string extensions from Zeytinbey.DataTypes.Extensions to ZeytinBey.DataTypes namespace.</PackageReleaseNotes>
+    <PackageTags>data types conversion convert default value extension method string enum display name</PackageTags>
+    <PackageReleaseNotes>Added DisplayName extension method for Enum type.</PackageReleaseNotes>
     <NeutralLanguage>en-US</NeutralLanguage>
-	<Version>1.0.2</Version>
+	<Version>1.0.3</Version>
     <AssemblyVersion>$(Version).0</AssemblyVersion>
     <FileVersion>$(AssemblyVersion)</FileVersion>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>

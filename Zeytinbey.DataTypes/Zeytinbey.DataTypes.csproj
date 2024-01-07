@@ -10,10 +10,10 @@
     <Description>Zeytinbey.DataTypes is a comprehensive package designed to streamline DataType operations in your .NET projects. Packed with a collection of essential helper classes, static utilities, and extension methods, it simplifies tasks like type conversion and more, enhancing the efficiency and readability of your codebase.</Description>
     <Copyright>All rights reserved.</Copyright>
     <PackageReadmeFile>Readme.md</PackageReadmeFile>
-    <PackageTags>data types conversion convert default value extension method string enum display name</PackageTags>
-    <PackageReleaseNotes>Enum extension method DisplayName is renamed as GetDisplayNameOrNull. Added GetDisplayName extension method which returns empty string if display name is not specified.</PackageReleaseNotes>
+    <PackageTags>data types conversion convert default value extension method string bool boolean enum display name</PackageTags>
+    <PackageReleaseNotes>Implemented an extension method for the bool type, enabling conversion to a string with specified true and false string values.</PackageReleaseNotes>
     <NeutralLanguage>en-US</NeutralLanguage>
-	<Version>1.0.4</Version>
+	<Version>1.0.5</Version>
     <AssemblyVersion>$(Version).0</AssemblyVersion>
     <FileVersion>$(AssemblyVersion)</FileVersion>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>

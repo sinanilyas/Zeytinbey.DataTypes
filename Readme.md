@@ -10,4 +10,4 @@ No package dependencies.
 
 ## Legal Information and Credits
 
-Written by [Sinan İLYAS](https://www.sinanilyas.com). It's licensed under [MIT](https://github.com/codebude/QRCoder/blob/master/LICENSE.txt).
+Written by [Sinan İLYAS](https://www.sinanilyas.com). It's licensed under [MIT](https://licenses.nuget.org/MIT).

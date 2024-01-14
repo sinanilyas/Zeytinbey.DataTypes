@@ -6,7 +6,7 @@ Zeytinbey.DataTypes is a comprehensive package designed to streamline DataType o
 
 ## Dependencies
 
-No package dependencies.
+System.ComponentModel.Annotations (>= 5.0.0)
 
 ## Legal Information and Credits
 

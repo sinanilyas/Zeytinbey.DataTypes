@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
+    <TargetFramework>netstandard2.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
@@ -10,16 +10,17 @@
     <Description>Zeytinbey.DataTypes is a comprehensive package designed to streamline DataType operations in your .NET projects. Packed with a collection of essential helper classes, static utilities, and extension methods, it simplifies tasks like type conversion and more, enhancing the efficiency and readability of your codebase.</Description>
     <Copyright>All rights reserved.</Copyright>
     <PackageReadmeFile>Readme.md</PackageReadmeFile>
-    <PackageTags>data types conversion convert default value extension method string bool boolean enum display name</PackageTags>
-    <PackageReleaseNotes>Implemented an extension method for the bool type, enabling conversion to a string with specified true and false string values.</PackageReleaseNotes>
+    <PackageTags>data types conversion convert default value extension method string bool boolean enum display name helper class</PackageTags>
+    <PackageReleaseNotes>Target framework changed to .NET Standard 2.0.</PackageReleaseNotes>
     <NeutralLanguage>en-US</NeutralLanguage>
-	<Version>1.0.5</Version>
+	<Version>1.1.0</Version>
     <AssemblyVersion>$(Version).0</AssemblyVersion>
     <FileVersion>$(AssemblyVersion)</FileVersion>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageProjectUrl>https://github.com/sinanilyas/Zeytinbey.DataTypes</PackageProjectUrl>
     <RepositoryUrl>$(PackageProjectUrl)</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
+    <LangVersion>12.0</LangVersion>
   </PropertyGroup>
 
   <ItemGroup>
@@ -28,6 +29,10 @@
       <PackagePath>\</PackagePath>
     </None>
     <None Include="StringExtensions.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.ComponentModel.Annotations" Version="5.0.0" />
   </ItemGroup>
 
 </Project>

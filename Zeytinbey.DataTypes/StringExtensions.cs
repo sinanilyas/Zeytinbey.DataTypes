@@ -1,4 +1,7 @@
-﻿namespace Zeytinbey.DataTypes;
+﻿using System.Globalization;
+using System.Text;
+
+namespace Zeytinbey.DataTypes;
 
 public static class StringExtensions
 {
@@ -146,6 +149,23 @@ public static class StringExtensions
     public static DateTime ToDateTimeOrDefault(this string value, DateTime defaultValue = default)
     {
         return DateTime.TryParse(value, out var result) ? result : defaultValue;
+    }
+
+    #endregion
+
+    #region Other Extensions
+
+    public static string NormalizeTurkishCharacters(this string value)
+    {
+	    // Use FormD for Canonical Decomposed normalization and handle special case for dotless i ('ı')
+	    var normalizedValue = value.Normalize(NormalizationForm.FormD).Replace("ı", "i");
+
+	    // Remove the diacritic marks
+	    var result = new string(normalizedValue
+		    .Where(c => CharUnicodeInfo.GetUnicodeCategory(c) != UnicodeCategory.NonSpacingMark)
+		    .ToArray());
+
+	    return result;
     }
 
     #endregion

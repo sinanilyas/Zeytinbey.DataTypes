@@ -11,9 +11,9 @@
     <Copyright>All rights reserved.</Copyright>
     <PackageReadmeFile>Readme.md</PackageReadmeFile>
     <PackageTags>data types conversion convert default value extension method string bool boolean enum display name helper class</PackageTags>
-    <PackageReleaseNotes>Target framework changed to .NET Standard 2.0.</PackageReleaseNotes>
+    <PackageReleaseNotes>Added string extension method NormalizeTurkishCharacters.</PackageReleaseNotes>
     <NeutralLanguage>en-US</NeutralLanguage>
-	<Version>1.1.0</Version>
+	<Version>1.1.1</Version>
     <AssemblyVersion>$(Version).0</AssemblyVersion>
     <FileVersion>$(AssemblyVersion)</FileVersion>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>

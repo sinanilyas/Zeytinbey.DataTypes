@@ -10,10 +10,10 @@
     <Description>Zeytinbey.DataTypes is a comprehensive package designed to streamline DataType operations in your .NET projects. Packed with a collection of essential helper classes, static utilities, and extension methods, it simplifies tasks like type conversion and more, enhancing the efficiency and readability of your codebase.</Description>
     <Copyright>All rights reserved.</Copyright>
     <PackageReadmeFile>Readme.md</PackageReadmeFile>
-    <PackageTags>data types conversion convert default value extension method string bool boolean enum display name helper class</PackageTags>
-    <PackageReleaseNotes>Added string extension method NormalizeTurkishCharacters.</PackageReleaseNotes>
+    <PackageTags>data types conversion convert default value extension method string bool boolean enum display name helper class truncate ellipsis</PackageTags>
+    <PackageReleaseNotes>Added string extension method TruncateWithEllipsis.</PackageReleaseNotes>
     <NeutralLanguage>en-US</NeutralLanguage>
-	<Version>1.1.1</Version>
+	<Version>1.2.0</Version>
     <AssemblyVersion>$(Version).0</AssemblyVersion>
     <FileVersion>$(AssemblyVersion)</FileVersion>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>

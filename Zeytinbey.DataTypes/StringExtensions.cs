@@ -168,6 +168,11 @@ public static class StringExtensions
 	    return result;
     }
 
+    public static string TruncateWithEllipsis(this string value, int maxLength)
+    {
+	    return value.Length <= maxLength ? value : $"{value.Substring(0, maxLength - 3)}...";
+    }
+
     #endregion
 }
 
